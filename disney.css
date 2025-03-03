@@ -1,0 +1,178 @@
+*{
+    border: 0px solid;
+     
+   
+  
+
+}
+
+@font-face {
+    font-family: "Zubilo"; 
+    src: url("Zubilo.ttf") format("truetype"); 
+    font-weight: normal;
+    font-style: normal;
+}
+ section>*{
+    display: inline-block;
+ }
+.carte {
+    background-color: #b6d2ea;
+margin-bottom: 20px; }
+
+.grand-format .nom{
+    font-size: 9vw;
+    padding: 0;
+    margin: 0;
+  
+    
+    
+}
+.grand-format .age{
+    padding: 0;
+    margin: 0;
+    font-size: 5vw;
+   
+    
+   
+}
+.grand-format .film{
+    padding: 0;
+    margin: 0;
+    font-size: 3vw;
+    padding-top: 3%;
+    
+    
+   
+}
+.grand-format .description{
+    width: 50%;
+    display: inline-block;
+    font-size: 4vw;
+    padding-left: 6%;
+    
+}
+.grand-format .date{
+    width: 50%;
+    display: inline-block;
+    font-size: 4vw;
+    text-align: center;
+}
+.grand-format .famille{
+    width: 50%;
+    font-size: 3vw;
+}
+.grand-format .roles{
+    width: 50%;
+    font-size: 3vw;
+}
+.grand-format img{
+    border-radius: 600px;
+    width: 25%;
+    height: auto;
+    
+    
+}
+.image{
+    width: 25%;
+    margin-left: 6px;
+}
+
+.haut{
+    width: 100%;
+    display: inline-block;
+    margin-top: 0%;
+    padding: 2%;
+   
+}
+.titre {
+    display: inline-block;
+    margin-left: 20%;
+    margin-right: 3%;
+    margin-top: 0%;
+    
+}
+
+.milieu{
+display: flex;
+padding-top: 10px;
+}
+
+.bas{
+    display: flex;
+}
+
+button{
+    font-size: 1.5rem;
+    z-index: 1;
+    position: fixed;
+    padding: 15px;
+    border-radius: 25px;
+    color: rgb(179, 255, 255);
+    background-color: black;
+
+  }
+button:hover{
+    background-color: rgb(117, 117, 117);
+}
+.petit-format{
+    width:20ch ;
+    
+ 
+}
+.grand-format{
+    width: 100%;
+}
+.petit-format .milieu{
+    display: none;
+
+}
+.petit-format .bas{
+    display: none;
+}
+.petit-format img{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    border-radius: 600px;
+}
+.petit-format .haut {
+    width: 100%;
+}
+.petit-format .titre {
+    width: 90%;
+    margin: 5%;
+
+}
+
+
+.petit-format .age {
+   display: none;
+}
+
+
+main{
+    display: flex;
+    gap: 10px;
+}
+
+.mosaique{
+    flex-wrap: wrap;
+}
+
+.petit-format .titre *{
+    text-align: center;
+}
+.grand-format .haut {
+    display: flex;
+}
+.titre{
+    font-family: "Zubilo",sans-serif;
+    
+}
+.grand-format{
+    border-radius: 5vw;
+}
+.petit-format{
+    border-radius: 2vh;
+}
