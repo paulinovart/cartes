@@ -610,3 +610,4 @@ document.querySelector("#switch").addEventListener("click", _event => {
             // J'ajoute la classe "grand-format" à la liste des classes de ma carte
         }
     });
+});
