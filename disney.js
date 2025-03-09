@@ -98,7 +98,7 @@ let personnages = [
             frereSoeur: ["Harris", "Hubert", "Hamish"]
         },
         roles: ["princesse", "archère"],
-        illustration: "./images/merida.jpg"
+        illustration: "./images/Merida.jpg"
     },
 
     {
@@ -424,7 +424,7 @@ let personnages = [
             frereSoeur: ["Violette", "Jack-jack"]
         },
         roles: ["Super-hero", "Rapide"],
-        illustration: "./images/fleche.png"
+        illustration: "./images/Fleche.png"
     },
 
     {
@@ -441,7 +441,7 @@ let personnages = [
             frereSoeur: []
         },
         roles: ["super-hero", "pouvoir de glace"],
-        illustration: "./images/frozone.png"
+        illustration: "./images/Frozone.png"
     },
     {
         nom: "Gaston",
@@ -457,7 +457,7 @@ let personnages = [
             frereSoeur: []
         },
         roles: ["Don-Juan", "Forceur"],
-        illustration: "./images/gaston.png"
+        illustration: "./images/Gaston.png"
     },
     {
         nom: "Le Génie",
