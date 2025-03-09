@@ -598,7 +598,7 @@ document.querySelector("#switch").addEventListener("click", _event => {
 
     cartes.forEach(x => {
         if (x.classList.contains("grand-format")) {
-            // Je sélectionne la classe "grand-format" de la liste des classes de ma carte
+            // Je sélectionne la classe "grand-format" de la liste des classes de ma carte 
             x.classList.remove("grand-format");
             // Je retire la classe "grand-format" à la liste des classes de ma carte
             x.classList.add("petit-format");
