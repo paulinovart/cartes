@@ -1,5 +1,6 @@
 *{
     border: 0px solid;
+    
      
    
   
@@ -17,10 +18,11 @@
  }
 .carte {
     background-color: #b6d2ea;
-margin-bottom: 20px; }
+margin-bottom: 20px;
+ }
 
 .grand-format .nom{
-    font-size: 9vw;
+    font-size: clamp(1rem, 9vw, 90px);
     padding: 0;
     margin: 0;
   
@@ -30,7 +32,7 @@ margin-bottom: 20px; }
 .grand-format .age{
     padding: 0;
     margin: 0;
-    font-size: 5vw;
+    font-size: clamp(1rem, 6vw, 45px);
    
     
    
@@ -38,7 +40,7 @@ margin-bottom: 20px; }
 .grand-format .film{
     padding: 0;
     margin: 0;
-    font-size: 3vw;
+    font-size: clamp(1rem, 5vw, 30px);
     padding-top: 3%;
     
     
@@ -47,34 +49,40 @@ margin-bottom: 20px; }
 .grand-format .description{
     width: 50%;
     display: inline-block;
-    font-size: 4vw;
-    padding-left: 6%;
+    font-size: clamp(1rem, 4vw, 25px);
+    padding-left: 5%;
+    font-family: poppins;
     
 }
 .grand-format .date{
     width: 50%;
     display: inline-block;
-    font-size: 4vw;
-    text-align: center;
+    font-size: clamp(1rem, 4vw, 25px);
+    padding-left: 5%;
+    font-family: poppins;
+    
 }
 .grand-format .famille{
     width: 50%;
-    font-size: 3vw;
+    font-size: clamp(1rem, 3vw, 20px);
+    font-family: poppins;
 }
 .grand-format .roles{
     width: 50%;
-    font-size: 3vw;
+    font-size: clamp(1rem, 3vw, 20px);
+    font-family: poppins;
 }
 .grand-format img{
     border-radius: 600px;
     width: 25%;
-    height: auto;
+    height: 25%;
     
     
 }
 .image{
     width: 25%;
     margin-left: 6px;
+    height: 25%;
 }
 
 .haut{
@@ -121,6 +129,7 @@ button:hover{
 }
 .grand-format{
     width: 100%;
+    
 }
 .petit-format .milieu{
     display: none;
@@ -151,7 +160,7 @@ button:hover{
 }
 
 
-main{
+body{
     display: flex;
     gap: 10px;
 }
@@ -176,3 +185,12 @@ main{
 .petit-format{
     border-radius: 2vh;
 }
+@media screen and (min-width: 800px) {
+    .grand-format {
+        width: 800px;
+        min-height: 450px;
+        margin: auto;
+        display: block; 
+        border-radius: 50px;
+    }}
+
